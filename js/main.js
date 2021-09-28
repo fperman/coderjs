@@ -1,3 +1,10 @@
+
+//FUNCIÓN USUARIO
+let nombre = prompt ("Ingrese su nombre.");
+let apellido = prompt("Ingrese su apellido.");
+let mail = prompt("Ingrese su E-Mail.")
+
+
 //FUNCIONES
 const valorMenu1 = 6000;
 const valorMenu2 = 4500;
@@ -26,11 +33,6 @@ const seleccionarMenu = (menu) => {
     }
     return tipoMenu;
 }
-
-//FUNCIÓN USUARIO
-let nombre = prompt ("Ingrese su nombre.");
-let apellido = prompt("Ingrese su apellido.");
-let mail = prompt("Ingrese su E-Mail.")
 
 //FUNCIÓN MENU
 const pedirMenu = () => {
